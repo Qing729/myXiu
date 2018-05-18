@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>走秀注册</title>
+    <link type="text/css" rel="stylesheet" href="src/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="src/css/register.css">
+    <!--验证码插件样式-->
+    <link type="text/css" rel="stylesheet" href="src/css/jquery.idcode.css">
+    <script src="src/js/lib/jquery-3.2.1.js"></script>
+    <script src="src/js/lib/jquery-validation-1.14.0/jquery.validate.js"></script>
+    <script src="src/js/lib/jquery-validation-1.14.0/additional-methods.js"></script>
+    <script src="src/js/lib/jquery-validation-1.14.0/localization/messages_zh.js"></script>
+    <script src="src/js/register.js"></script>
+    <!--验证码插件js-->
+    <script src="src/js/lib/jquery.idcode.js"></script>
+</head>
+<body>
+<div id="header">
+    <div class="logo">
+        <h1><a href="index.html" title="走秀网 全球时尚 正品保证">走秀</a></h1>
+    </div>
+</div>
+<div id="register-wrapper">
+    <div class="register">
+        <h3>
+            <a href="javascript:void(0);">欢迎注册</a>
+        </h3>
+        <form action="" class="myform" id="myform">
+            <ul>
+                <li class="inp">
+                    <input type="text" name="userName" id="userName" value=""/>
+                    <span class="val">用户名</span>
+                </li>
+                <p></p>
+                <li class="inp">
+                    <input type="password" name="userPwd" id="userPwd" value=""/>
+                    <span class="val">密码</span>
+                </li>
+                <p></p>
+                <li class="inp">
+                    <input type="password" name="isuserPwd" id="isuserPwd" value=""/>
+                    <span class="val">确认密码</span>
+                </li>
+                <p></p>
+                <li class="inp">
+                    <input type="text" name="userTel" id="userTel" value=""/>
+                    <span class="val">手机号码</span>
+                </li>
+                <p></p>
+                <li class="inp clearfix">
+                    <input type="text" name="userCode" id="userCode" value=""/>
+                    <span class="val">短信验证码</span>
+                    <span id="idcode"></span>
+                </li>
+                <p></p>
+                <li>
+                    <button id="btn_reg" type="submit">注&nbsp;&nbsp;册</button>
+                </li>
+            </ul>
+        </form>
+        <p class="agree">注册代表您已同意<a href="#">《走秀网用户协议》</a></p>
+        <a href="login.html" class="toggle_login">
+            <span></span>
+            <i></i>
+        </a>
+    </div>
+</div>
+<div id="footer">
+    <p>
+        <a href="">关于走秀</a><i>|</i>
+        <a href="">媒体报道</a><i>|</i>
+        <a href="">品牌招商</a><i>|</i>
+        <a href="">加入走秀</a><i>|</i>
+        <a href="">友情链接</a><i>|</i>
+        <a href="">联系我们</a><i>|</i>
+        <a href="">帮助中心</a><i>|</i>
+        <a href="">网站地图</a>
+    </p>
+    <p>
+        Copyright&nbsp;&copy;&nbsp;2008-2017&nbsp;<a href="#">hXiu.com</a>&nbsp;版权所有 .&nbsp;&nbsp;<a href="#">粤ICP备07502993号</a>&nbsp;&nbsp;<img
+            src="src/images/img_login/wab.png">&nbsp;<a href="#">粤公网安备 44030402000804号</a>
+    </p>
+</div>
+<script>
+    $.idcode.setCode();   //加载生成验证码方法
+</script>
+</body>
+</html>

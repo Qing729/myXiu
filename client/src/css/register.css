@@ -1,0 +1,159 @@
+#header{
+    height: 60px;
+    background: #fff;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+}
+.logo{
+    height: 30px;
+    width: 194px;
+    background: url(../images/img_login/logo_mini.png) no-repeat;
+    margin: 15px 0 0 32px;
+}
+.logo a{
+    display: block;
+    width: 194px;
+    height: 30px;
+    text-indent: -9999px;
+}
+#register-wrapper{
+    height: 700px;
+    position: relative;
+    background: #f7f2ec url("../images/img_login/login_bg.jpg") no-repeat center;
+}
+.register{
+    width: 420px;
+    height: 560px;
+    border: 1px solid #d8d8d8;
+    background: #fff;
+    box-shadow: 2px 2px 40px #d8d8d8;
+    position: absolute;
+    right: 62px;
+    top: 70px;
+}
+.register h3{
+    background: #f7f7f9;
+    height: 53px;
+}
+.register h3 a{
+    display: block;
+    width: 420px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 53px;
+    color: #464646;
+}
+label.error{
+    color: #d2041f;
+    padding-left: 18px;
+    background: url("../images/img_login/login_sprite_warn.jpg") no-repeat 0px 2px;
+}
+#btn_reg:hover{
+    background: #b3031a;
+}
+.myform{
+    width: 420px;
+    padding-top: 5px;
+}
+.myform ul{
+    width: 302px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.myform ul li{
+    position: relative;
+    margin-top: 20px;
+}
+.myform ul input{
+    width: 290px;
+    height: 34px;
+    border: 1px solid #d8d8d8;
+    background: #FFFFFF;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.myform ul li .val{
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    padding: 0 3px;
+    background: #FFFFFF;
+    color: #afafaf;
+    cursor: text;
+}
+.myform ul button{
+    width: 302px;
+    height: 40px;
+    background: #d2041f;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 20px;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+}
+
+.myform ul li:nth-of-type(5) input{
+    width: 175px;
+    float: left;
+}
+.register .agree{
+	text-align: center;
+	color: #afafaf;
+	margin-top: 20px;
+}
+.register .agree a{
+	color: #005ba1;
+}
+.register .agree a:hover{
+	text-decoration: underline;
+}
+.toggle_login{
+	display: block;
+	width: 142px;
+	height: 60px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.toggle_login span{
+	display: block;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: url("../images/img_login/login_sprite.png") no-repeat -70px -400px;
+}
+.toggle_login i{
+	width: 84px;
+	height: 26px;
+	display: block;
+	background: url("../images/img_login/login_sprite.png") no-repeat -100px -360px;
+	position: absolute;
+	left: 0;
+	bottom: 12px;
+}
+#footer{
+    height: 82px;
+    background: #fff;
+    text-align: center;
+    padding-top: 28px;
+}
+#footer p:nth-of-type(1) a:hover{
+    color: #feb34f;
+}
+#footer p:nth-of-type(1) i{
+    padding: 0 10px;
+    color: #d5ccd5;
+}
+#footer p:nth-of-type(2){
+    color: #999;
+    line-height: 40px;
+}
+#footer p:nth-of-type(2) a{
+    color: #999;
+}
+#footer p:nth-of-type(2) a:hover{
+    color: #feb34f;
+}

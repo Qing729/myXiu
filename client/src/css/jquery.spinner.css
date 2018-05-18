@@ -1,0 +1,52 @@
+.spinner {
+	/*height: 25px;*/
+	/*width: 71px;*/
+	*zoom:1;
+	/*-webkit-box-shadow: 0 3px 3px -4px #aaa;*/
+	/*-moz-box-shadow: 0 3px 3px -4px #aaa;*/
+	/*box-shadow: 0 3px 3px -4px #aaa;*/
+	float: left;
+	margin-left: 10px;
+	margin-top: 4px;
+	width: 94px;
+	height: 22px;
+	overflow: hidden;
+}
+.spinner .value {
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid #ccc;
+	margin: 0 6px;
+	float: left;
+}
+.spinner button {
+	border: none;
+	outline: none;
+	width: 15px;
+	height: 15px;
+	margin-top: 3px;
+	float: left;
+	background: url("../images/img_shopping/goods_info.gif") no-repeat -207px -163px;
+}
+.spinner .decrease {
+	background-position: -207px -163px;
+	cursor: pointer;
+}
+.spinner .decrease[disabled] {
+	background-position-x: -224px;
+	cursor: default
+}
+.spinner .increase {
+	background-position-y: -182px;
+	cursor: pointer;
+}
+/*.spinner .value.passive {*/
+	/*!*background-position: 0 -25px;*!*/
+	/*color: #919191*/
+/*}*/
+/*.spinner .error, .spinner .invalid {*/
+	/*background: #aa0000*/
+/*}*/

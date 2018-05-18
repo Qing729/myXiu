@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link type="text/css" rel="stylesheet" href="src/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="src/css/shoppingCart.css">
+    <!--数量加减插件样式-->
+    <link rel="stylesheet" href="src/css/jquery.spinner.css"/>
+    <script src="src/js/lib/jquery-3.2.1.js"></script>
+    <script src="src/js/lib/jquery.cookie/jquery.cookie.js"></script>
+    <!--数量加减插件js-->
+    <script type="text/javascript" src="src/js/lib/jquery.spinner.js"></script>
+    <script src="src/js/tools.js"></script>
+    <script src="src/js/shoppingCart.js"></script>
+</head>
+<body>
+<div id="shoppingcart-wrapper">
+    <div class="shoppingcart">
+        <div class="header">
+            <div class="logo">
+                <h1>
+                    <a href="index.html" title="走秀网 全球时尚 正品保证">走秀</a>
+                </h1>
+            </div>
+            <div class="menu">
+                <p>客服热线(免长途费)：<span>400-888-4499</span><a href="#">在线客服</a></p>
+                <p class="login_pare">您好!欢迎光临走秀网! <a href="login.html" class="login"> [ 登录/注册 ] </a> | <a href="#">
+                    帮助中心 </a></p>
+            </div>
+        </div>
+        <div class="buying_pro">
+            <ul class="clearfix">
+                <li class="pro">1.我的购物袋<span></span></li>
+                <li>2.填写并核对订单信息<span></span></li>
+                <li>3.成功提交订单</li>
+            </ul>
+        </div>
+        <div class="buying_goods">
+            <div class="nogoods">
+                购物袋暂没有商品，现在就去 <a href="index.html">挑选自己喜欢的商品</a> 。
+            </div>
+            <div class="goods">
+                <div class="goods_list">
+                    <ul class="clearfix">
+                        <li><input type="checkbox" class="ckb" checked>全选</li>
+                        <li>商品</li>
+                        <li>购买价(元)</li>
+                        <li>数量</li>
+                        <li>操作</li>
+                    </ul>
+                    <table cellspacing="0" cellpadding="0">
+                        <tbody>
+                        <!--<tr>-->
+                        <!--<td><input type="checkbox" name="cbx"></td>-->
+                        <!--<td><img src="src/images/img_cart/g1_66_88.jpg" ></td>-->
+                        <!--<td>-->
+                        <!--<span>Morphy Richards</span><br>-->
+                        <!--<a href="#">MR8209多士炉 吐司机早餐机 烤面包机</a><br>-->
+                        <!--<span>颜色 : 黄色 尺码 : 均码</span>-->
+                        <!--</td>-->
+                        <!--<td>-->
+                        <!--<s><i>￥</i>210</s><br>-->
+                        <!--<b><i>￥</i>210</b>-->
+                        <!--</td>-->
+                        <!--<td>-->
+                        <!--<input type="text" class="spinnerExample"/>-->
+                        <!--</td>-->
+                        <!--<td>-->
+                        <!--<a href="#">移至收藏夹</a><br>-->
+                        <!--<a href="#">删除</a>-->
+                        <!--</td>-->
+                        <!--</tr>-->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="buying_menu">
+                    <label><input type="checkbox" class="ckb" checked>全选</label>
+                    <a href="javascript:void(0)" class="alldel">删除</a>
+                    <a href="#">清除失效商品</a>
+                    <a href="#">移至收藏夹</a>
+                    <span>已选商品<b class="num"></b>件</span>
+                    <span>总计(<i>不含运费</i>)：<b>￥<strong class="total"></strong></b></span>
+                    <button>结算</button>
+                </div>
+            </div>
+        </div>
+        <div class="collect">
+            <a href="#"></a>
+            <span>请<a href="#">登录</a>后查看您收藏的商品</span>
+        </div>
+        <div class="footer">
+            <p>
+                Copyright&nbsp;&copy;&nbsp;2008-2017&nbsp;<a href="#">hXiu.com</a>&nbsp;版权所有 .&nbsp;&nbsp;<a href="#">粤ICP备07502993号</a>&nbsp;&nbsp;<img
+                    src="src/images/img_cart/wab.png">&nbsp;<a href="#">粤公网安备 44030402000804号</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>走秀首页</title>
+    <link type="text/css" rel="stylesheet" href="src/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="src/css/common.css">
+    <link type="text/css" rel="stylesheet" href="src/css/index.css">
+    <link type="text/css" rel="stylesheet" href="src/css/swiper-3.4.2.min.css">
+    <script src="src/js/lib/jquery-3.2.1.js"></script>
+    <script src="src/js/lib/swiper.min.js"></script>
+    <script src="src/js/lib/jquery.cookie/jquery.cookie.js"></script>
+    <script src="src/js/tools.js"></script>
+    <script src="src/js/common.js"></script>
+    <script src="src/js/index.js"></script>
+</head>
+<body>
+<div id="header-wrapper">
+    <div class="header">
+        <div class="header-left">
+            <ul class="clearfix">
+                <li class="login_pare"><a href="login.html" class="login">登录/注册</a></li>
+                <li class="shoppingcart">
+                    <a href="javascript:void(0)">购物袋<span class="goodsnum">0</span>件</a>
+                    <div class="mybuy">
+                        购物袋暂时没有商品！
+                    </div>
+                </li>
+                <li>
+                    <a href="#">我的走秀</a>
+                    <ul>
+                        <li><a href="#">我的走秀</a></li>
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">自助退货</a></li>
+                        <li><a href="#">我的隐藏</a></li>
+                        <li><a href="#">帮助中心</a></li>
+                        <li><a href="#">全部吐槽</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="header-center">
+            <div class="logo">
+                <h1>
+                    <a href="index.html" title="走秀网 全球时尚 正品保证">走秀</a>
+                </h1>
+            </div>
+            <div class="nav">
+                <ul class="clearfix">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="#">新品</a></li>
+                    <li><a href="#">男士</a></li>
+                    <li><a href="#">女士</a></li>
+                    <li><a href="#">品牌</a></li>
+                    <li><a href="#">发现</a></li>
+                    <li><a href="#">专题</a></li>
+                    <li><a href="#">手机走秀</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-right">
+            <form action="">
+                <input type="text" name="usearch" class="usearch" placeholder="请搜索Alexander McQueen试试"/>
+                <span></span>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="subnav-wrapper">
+    <div class="subnav">
+        <ul class="clearfix">
+            <li>
+                <a href="#">包袋</a>
+                <div class="submenu clearfix">
+                    <div class="submenu_l clearfix">
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="submenu_r clearfix">
+                        <h5>热门品牌</h5>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#">服装</a>
+                <div class="submenu clearfix">
+                    <div class="submenu_l clearfix">
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="submenu_r clearfix">
+                        <h5>热门品牌</h5>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#">鞋靴</a>
+                <div class="submenu clearfix">
+                    <div class="submenu_l clearfix">
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="submenu_r clearfix">
+                        <h5>热门品牌</h5>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#">腕表</a>
+                <div class="submenu clearfix">
+                    <div class="submenu_l clearfix">
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="submenu_r clearfix">
+                        <h5>热门品牌</h5>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#">配饰</a>
+                <div class="submenu clearfix">
+                    <div class="submenu_l clearfix">
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="submenu_r clearfix">
+                        <h5>热门品牌</h5>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#">妆品</a>
+                <div class="submenu clearfix">
+                    <div class="submenu_l clearfix">
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="submenu_r clearfix">
+                        <h5>热门品牌</h5>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#">生活</a>
+                <div class="submenu clearfix">
+                    <div class="submenu_l clearfix">
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="submenu_r clearfix">
+                        <h5>热门品牌</h5>
+                        <ul>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#">婴童</a>
+                <div class="submenu clearfix">
+                    <div class="submenu_l clearfix">
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="submenu_r clearfix">
+                        <h5>热门品牌</h5>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#">豪车</a>
+                <div class="submenu clearfix">
+                    <div class="submenu_l clearfix">
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋:</a>
+                                <a href="#">频道精选</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a><br/>
+                                <a href="#">化妆包</a><i>|</i>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">长款钱包</a><i>|</i>
+                                <a href="#">短款钱包</a><i>|</i>
+                                <a href="#">卡包/零钱包</a><i>|</i>
+                                <a href="#">双肩包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                                <a href="#">单肩/斜挎包</a><i>|</i>
+                                <a href="#">提挎两用包</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="#">女士包袋</a>
+                            </dt>
+                            <dd>
+                                <a href="#">手提包</a><i>|</i>
+                                <a href="#">水桶包</a><i>|</i>
+                                <a href="#">链条包</a><i>|</i>
+                                <a href="#">购物袋</a><i>|</i>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="submenu_r clearfix">
+                        <h5>热门品牌</h5>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Louis Vuitton</a></li>
+                            <li><a href="#">Gucci</a></li>
+                            <li><a href="#">Burberry</a></li>
+                            <li><a href="#">Michael Kors</a></li>
+                            <li><a href="#">Dior</a></li>
+                            <li><a href="#">Miu Miu</a></li>
+                            <li><a href="#">Hermes</a></li>
+                            <li><a href="#">Givenchy</a></li>
+                            <li><a href="#">Saint Laurent</a></li>
+                            <li><a href="#">Coach</a></li>
+                            <li><a href="#">Tory Burch</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                            <li><a href="#">Longchamp</a></li>
+                            <li><a href="#">Aspinal of london</a></li>
+                            <li><a href="#">Rimowa</a></li>
+                            <li><a href="#">Kenzo</a></li>
+                            <li><a href="#">杰尼亚</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="right_fixed">
+    <div class="right_nav">
+        <ul>
+            <li><a href="javascript:void(0)" class="goods_recommend"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#header-wrapper"></a></li>
+        </ul>
+    </div>
+</div>
+<div id="banner-wrapper">
+    <div class="banner">
+        <ul class="clearfix">
+            <li><a href="#"><img src="src/images/img_index/banner5.jpg"></a></li>
+            <li><a href="#"><img src="src/images/img_index/banner4.jpg"></a></li>
+            <li><a href="#"><img src="src/images/img_index/banner3.jpg"></a></li>
+            <li><a href="#"><img src="src/images/img_index/banner2.jpg"></a></li>
+            <li><a href="#"><img src="src/images/img_index/banner1.jpg"></a></li>
+        </ul>
+        <ol class="clearfix"></ol>
+    </div>
+</div>
+<div id="menu-wrapper">
+    <div class="menu">
+        <ul class="clearfix">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </div>
+</div>
+<div id="main-wrapper">
+    <div class="main">
+        <div class="new">
+            <h3><img src="src/images/img_index/topic_za.jpg"></h3>
+            <ul class="clearfix">
+                <li>
+                    <a href="#">
+                        <img src="src/images/img_index/zuixin_01.jpg">
+                        <span><img src="src/images/img_index/zuixin_01.png"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="src/images/img_index/zuixin_02.jpg">
+                        <span><img src="src/images/img_index/zuixin_02.png"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="recommend">
+            <h3><img src="src/images/img_index/goods_t.jpg"></h3>
+            <ul class="clearfix">
+                <li><a href="#"><img src="src/images/img_index/1.jpg"></a></li>
+                <li><a href="#"><img src="src/images/img_index/2.jpg"></a></li>
+                <li><a href="#"><img src="src/images/img_index/3.jpg"></a></li>
+                <li><a href="#"><img src="src/images/img_index/4.jpg"></a></li>
+                <li><a href="#"><img src="src/images/img_index/5.jpg"></a></li>
+                <li><a href="#"><img src="src/images/img_index/6.jpg"></a></li>
+            </ul>
+            <ul class="clearfix">
+                <li><a href="#"><img src="src/images/img_index/7.jpg"></a></li>
+                <li><a href="#"><img src="src/images/img_index/8.jpg"></a></li>
+                <li><a href="#"><img src="src/images/img_index/9.jpg"></a></li>
+                <li><a href="#"><img src="src/images/img_index/10.jpg"></a></li>
+                <li><a href="#"><img src="src/images/img_index/11.jpg"></a></li>
+                <li><a href="#"><img src="src/images/img_index/12.jpg"></a></li>
+            </ul>
+            <ul class="clearfix">
+                <li><a href="#"><img src="src/images/img_index/13.jpg"></a></li>
+                <li><a href="#"><img src="src/images/img_index/14.jpg"></a></li>
+                <li><a href="#"><img src="src/images/img_index/15.jpg"></a></li>
+            </ul>
+        </div>
+        <div class="topic">
+            <h3><img src="src/images/img_index/topic_t.jpg"></h3>
+            <ul class="clearfix">
+                <li>
+                    <a href="#">
+                        <img src="src/images/img_index/beats_01.jpg">
+                        <span><img src="src/images/img_index/beats_01.png"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="src/images/img_index/beats_02.jpg">
+                        <span><img src="src/images/img_index/beats_02.png"></span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="clearfix">
+                <li>
+                    <a href="#">
+                        <img src="src/images/img_index/beats_03.jpg">
+                        <span><img src="src/images/img_index/beats_03.png"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="src/images/img_index/beats_04.jpg">
+                        <span><img src="src/images/img_index/beats_04.png"></span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="clearfix">
+                <li>
+                    <a href="#">
+                        <img src="src/images/img_index/beats_05.jpg">
+                        <span><img src="src/images/img_index/beats_05.png"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="src/images/img_index/beats_06.jpg">
+                        <span><img src="src/images/img_index/beats_06.png"></span>
+                    </a>
+                </li>
+            </ul>
+            <div class="more_topic">
+                <a href="#">
+                    <img src="src/images/img_index/topic_m.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="subbanner">
+            <a href="#"><img src="src/images/img_index/autob.jpg"></a>
+        </div>
+        <div class="shopping">
+            <h3><img src="src/images/img_index/found_t.jpg"></h3>
+            <ul class="clearfix">
+                <!--<li><a href="#"><img src="src/images/img_index/h1.jpg"></a></li>-->
+                <!--<li><a href="#"><img src="src/images/img_index/h2.jpg"></a></li>-->
+                <!--<li><a href="#"><img src="src/images/img_index/h3.jpg"></a></li>-->
+                <!--<li><a href="#"><img src="src/images/img_index/h4.jpg"></a></li>-->
+                <!--<li><a href="#"><img src="src/images/img_index/h5.jpg"></a></li>-->
+                <!--<li><a href="#"><img src="src/images/img_index/h6.jpg"></a></li>-->
+                <!--<li><a href="#"><img src="src/images/img_index/h7.jpg"></a></li>-->
+                <!--<li><a href="#"><img src="src/images/img_index/h8.jpg"></a></li>-->
+                <!--<li><a href="#"><img src="src/images/img_index/h9.jpg"></a></li>-->
+                <!--<li><a href="#"><img src="src/images/img_index/h10.jpg"></a></li>-->
+                <!--<li><a href="#"><img src="src/images/img_index/h11.jpg"></a></li>-->
+                <!--<li><a href="#"><img src="src/images/img_index/h12.jpg"></a></li>-->
+                <!--<li><a href="#"><img src="src/images/img_index/h13.jpg"></a></li>-->
+                <!--<li><a href="#"><img src="src/images/img_index/h14.jpg"></a></li>-->
+                <!--<li><a href="#"><img src="src/images/img_index/h15.jpg"></a></li>-->
+                <!--<li><a href="#"><img src="src/images/img_index/h16.jpg"></a></li>-->
+            </ul>
+            <div class="more_shopping">
+                <a href="#">
+                    <img src="src/images/img_index/fonud_m.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer-wrapper">
+    <div class="footer">
+        <ul class="f_left">
+            <li><a href="#" title="在线客服"></a></li>
+            <li></li>
+            <li><a href="#" title="我要吐槽"></a></li>
+        </ul>
+        <ul class="f_nav">
+            <li><a href="#">招贤纳士</a></li>
+            <li><a href="#">CEO邮箱</a></li>
+            <li><a href="#">售后服务</a></li>
+            <li><a href="#">常见问题</a></li>
+            <li><a href="#">关税说明</a></li>
+            <li><a href="#">物流配送</a></li>
+        </ul>
+        <div class="f_us">
+            <h4>
+                <span>关于我们</span>
+            </h4>
+            <ul class="clearfix">
+                <li>
+                    <a href="#"></a>
+                    <span></span>
+                </li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+            <form action="" class="subscription">
+                <input type="text" name="uemail" placeholder="订阅最新时尚资讯邮件...">
+                <span>+</span>
+                <label></label>
+            </form>
+        </div>
+        <div class="f_right">
+            <h4>我们的APP</h4>
+            <span></span>
+        </div>
+    </div>
+</div>
+<div id="foot-wrapper">
+    <div class="foot">
+        <p class="foot_menu">
+            <a href="">关于走秀</a><i>|</i>
+            <a href="">About us</a><i>|</i>
+            <a href="">媒体报道</a><i>|</i>
+            <a href="">品牌招商</a><i>|</i>
+            <a href="">加入走秀</a><i>|</i>
+            <a href="">网站地图</a><i>|</i>
+            <a href="">联系我们</a><i>|</i>
+            <a href="">品牌大全</a><i>|</i>
+            <a href="">邮件订阅</a><i>|</i>
+            <a href="">WAP站点</a>
+        </p>
+        <p class="foot_safe">
+            <a href="" title="海外直发"></a>
+            <a href="" title="品质保证"></a>
+            <a href="" title="售后保障"></a>
+        </p>
+        <p class="foot_msg">
+            Copyright&nbsp;&copy;&nbsp;2008-2017&nbsp;<a href="#">hXiu.com</a>&nbsp;深圳走秀网络科技有限公司 版权所有 .&nbsp;&nbsp;<a
+                href="#">粤ICP备07502993号</a>&nbsp;&nbsp;<img src="src/images/img_index/wab.png">&nbsp;<a href="#">粤公网安备
+            44030402000804号</a>
+        </p>
+        <p class="foot_prove">
+            <a href=""><img src="src/images/img_index/c_01.jpg"></a>
+            <a href=""><img src="src/images/img_index/c_02.jpg"></a>
+            <a href=""><img src="src/images/img_index/c_03.jpg"></a>
+            <a href=""><img src="src/images/img_index/c_04.jpg"></a>
+            <a href=""><img src="src/images/img_index/c_05.jpg"></a>
+        </p>
+    </div>
+</div>
+
+</body>
+
+</html>
