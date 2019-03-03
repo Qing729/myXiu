@@ -8,8 +8,8 @@ $(function () {
         $(".banner>ol").html($(".banner>ol").html() + "<li></li>");
     }
     var $ol_lis = $(".banner>ol").children();
-    var n = 0;
-    var dot = 0;
+    var n = 1;
+    var dot = 1;
     var timer;
     $ol_lis.eq(0).addClass("current");
     getPlayauto();
@@ -37,20 +37,22 @@ $(function () {
 
     function getPlayauto() {
         timer = setInterval(function () {
-            n++;
+            if (n >= $ul_lis.length - 1) {
+                dot = 0;
+            }
+            $ol_lis.eq(dot).addClass("current").siblings().removeClass("current");
             $banner_ul.animate({
                 left: -1200 * n
             }, function () {
                 if (n >= $ul_lis.length - 1) {
                     $banner_ul.css("left", "0px");
-                    n = 0;
-                }
-            });
-            dot++;
-            if (dot >= $ul_lis.length - 1) {
-                dot = 0;
-            }
-            $ol_lis.eq(dot).addClass("current").siblings().removeClass("current");
+                    n = 1;
+                    dot = 1;
+                } else {
+                    n++;
+                    dot++;
+                }              
+            });     
         }, 2000)
     }
 
