@@ -27,7 +27,7 @@ $(function () {
             $banner_ul.animate({
                 left: -1200 * index
             });
-            n = dot = index;
+            n = dot = index + 1;
         });
         $(ele).on("mouseleave", function () {
             clearInterval(timer);
@@ -43,7 +43,7 @@ $(function () {
             $ol_lis.eq(dot).addClass("current").siblings().removeClass("current");
             $banner_ul.animate({
                 left: -1200 * n
-            }, function () {
+            }, 300, function () {
                 if (n >= $ul_lis.length - 1) {
                     $banner_ul.css("left", "0px");
                     n = 1;
@@ -53,7 +53,7 @@ $(function () {
                     dot++;
                 }              
             });     
-        }, 2000)
+        }, 3000)
     }
 
     //页面滚动到指定位置
